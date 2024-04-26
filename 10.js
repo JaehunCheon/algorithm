@@ -7,4 +7,3 @@ function solution(numbers) {
         answer = sum/numbers.length;
     return answer;
 }
-

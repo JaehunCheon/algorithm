@@ -6,7 +6,6 @@ function solution(n) {
     answer = arr.reverse();
     return answer;
 }
-
 let n = 16245;
 
 console.log(solution(n));

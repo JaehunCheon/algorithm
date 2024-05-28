@@ -14,10 +14,6 @@ function solution(n, m) {
     }
   }
   for (let i = 1; i <= num; i++) {
-    if (m % n === 0 || n % m === 0) {
-      arr.push(num);
-      break;
-    }
     let xn = n * i;
     
     for (let j = 1; j <= num; j++) {
@@ -26,7 +22,6 @@ function solution(n, m) {
         arr.push(xm);
         break;
       }
-      
     }
     if(arr[1]) break;
   }
@@ -34,6 +29,6 @@ function solution(n, m) {
 }
 
 let n = 4;
-let m = 10;
+let m = 6;
 
 console.log(solution(n,m));
